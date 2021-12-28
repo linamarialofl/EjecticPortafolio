@@ -1,0 +1,136 @@
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 960px) {
+    .nosotros__infoContainer {
+      padding: 0px;
+      margin-bottom: 0px;
+      height: 8px !important;
+      top: -107px !important;
+      position: relative;
+    }
+
+    .nosotros__video {
+      margin-bottom: -45px !important;
+    }
+  }
+  
+  .nosotros__video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: #232a24;
+    margin-bottom: -421px;
+    z-index: 1;
+  }
+  .nosotros__text{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color:#ffffff;
+    font-family:TituloM;
+    position: relative;
+  }
+  .nosotros__text2{
+    width: 100%;
+    font-size: 40px;
+    color:#ffffff;
+    font-family:TituloM;
+    text-align: center !important;
+  }
+  .nosotros__info {
+    bottom: 1;
+    color: #DDD;
+    width: 100%;
+    font-size: 90px;
+    z-index: 90;
+  }
+  .nosotros__infoContainer {
+    padding: 0px;
+    margin-bottom: 0px;
+    height: 384px;
+  }
+  .nosotros__carosel{
+    background-color:#EBE9E9;
+    border-radius:38px;
+    width:85%;
+
+  }
+  .nosotros__textopersonas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    margin-bottom:15pz;
+  }
+  .nosotros__conteinercarru{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+  }
+  .nosostros__contenidopersonas{
+      text-align:left;
+  }
+  .nosotros__imgcarr{
+      width:30%;
+  }
+  .nosotros__titulotea{
+    width: 100%;
+    font-size:50px;
+    font-family:TituloM;
+
+  }
+  .nosotros__contenidotext{
+    background-image: url("../Images/fondoA.png");
+    padding:45px;
+  }
+  .nosotros__titulo2{
+    color:#ffffff;
+    justify-content:left;
+    text-align:left;
+    font-size:20px;
+  }
+ .nosotros__tituloteas{
+     padding:25px;
+     font-family:TituloM;
+ }
+.nosotros__textoabajo{
+    padding:25px;
+    margin-top:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+   
+}
+.nosostros__contenidopersonas1{
+    font-size:22px;
+    text-align:center;
+    font-weight:bold;
+
+
+}
+.nosostros__contenidopersonas2{
+    font-size:18px;
+ 
+    text-align:center;
+   
+
+}
+.nosotros__redes{
+    background-image: url("../Images/fondoA.png");
+    width:100%;
+    padding:20px;
+    display:flex;
+    justify-content:center;
+
+}
+.nosotros__icon{
+    color:#ffffff !important;
+}

@@ -1,0 +1,65 @@
+.imperium{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 92.3%;
+    background-image: url("../Images/fondoImp2.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+@media screen and (max-width: 960px) {
+    .imperium {
+        background-image: url("../Images/celular.png") !important; 
+    }
+    .imperium__button {
+        width: 50% !important;
+        font-size: 18px !important;
+        top: 60% !important;
+        right: 26% !important;
+    }
+}
+.imperium__fondo{
+    width: 100%;
+    height: 50%;
+    z-index: 1;
+    margin-bottom: -290px;
+    background-repeat:no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;;
+
+}
+.imperium__button {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 10px;
+    z-index: 90;
+    font-size: 30px;
+    font-family: Raleway !important; 
+    font-weight: bold !important;
+    line-height: 33px;
+    letter-spacing: 0.35em;
+    background-color: #D88C47 !important;
+    border-radius: 25px !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 41.5px !important;  
+    position: absolute;
+    top: 60%;
+    right:38%;
+  }
+
+  .imperium__button:hover {
+      color: white;
+  }
